@@ -1,0 +1,28 @@
+{
+  "name": "sequelize-relations-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "resetDb": "node resetDb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdabug/sequelize-relations-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdabug/sequelize-relations-lab/issues"
+  },
+  "homepage": "https://github.com/kdabug/sequelize-relations-lab#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "pg": "^7.8.2",
+    "sequelize": "^4.43.0"
+  }
+}
